@@ -7,6 +7,13 @@
 
 ---
 
+## 0. Arte publicada
+
+A arte do carrossel (Peça 1, 8 slides prontos) e um guia visual navegável das 3 peças foram publicados como Artifact:
+**https://claude.ai/code/artifact/32618d27-3a30-476e-89fa-2db1c621de62**
+
+Nota técnica: o ambiente de execução usado para esta entrega não tinha acesso a terminal/shell, então a arte foi produzida como uma página HTML autocontida publicada diretamente via Artifact (galeria com os 8 slides em tamanho real de exportação, 1080×1350, mais o sistema visual e o guia de referência dos dois reels) — não pelo editor visual "Claude Design" (que normalmente permite edição ponto-a-clique). Isso significa que o cliente pode ver, mas não editar diretamente essa versão pelo Artifact; ajustes precisam ser pedidos numa nova iteração ao designer. Os slides do carrossel estão prontos para exportação/recorte em ferramenta de design (Figma, Canva etc.) a partir das especificações abaixo.
+
 ## 1. Direção visual proposta (a validar)
 
 **Racional:** o comprador é dono de empresa de entregas — precisa confiar que o produto é robusto o suficiente pra rodar a operação dele (tech B2B, confiável, "painel de verdade"), mas duas das três peças mostram bastidor humano (entregador na chuva, rotina de trabalho) — a direção não pode parecer fria/corporativa a ponto de destoar desse tom. A proposta busca meio-termo: base de confiança (azul-marinho + tipografia geométrica firme) com um acento de energia/movimento (laranja) que remete a delivery/urgência sem cair no clichê "app de comida vermelho-e-amarelo".
@@ -113,7 +120,19 @@ Regra de aplicação: **cada peça usa no máximo 2 cores de destaque por tela**
 
 ---
 
-## 5. Pendências para o cliente
+## 5. Atualização com dados confirmados (recebidos após a primeira versão desta direção)
+
+Chegou confirmação factual via `clientes/entregas-expressas/analise/2026-08-26-funcionalidades-confirmado.md` (conteúdo real da página entregasexpressas.com.br/funcionalidades). Isso não muda o direcionamento das 3 peças, mas ajusta dois pontos da proposta visual:
+
+**a) Prova social real (não é mais dado a evitar).** "Mais de 50 milhões de entregas processadas para mais de 2 mil empresas" é o número oficial do site. Não uso esse número para reescrever a copy aprovada (a copy do carrossel já está fechada e não é papel do design alterar texto do copywriter), mas adiciono um **badge de credibilidade discreto** no slide 8 do carrossel — elemento visual adicional, pequeno, abaixo dos bullets e acima do CTA, sem competir com a hierarquia principal do slide. É uma opção de reforço; pode ser removido sem prejuízo se o cliente preferir o slide 8 mais limpo.
+
+**b) Linguagem visual real do produto (dashboard operacional).** O site confirma que a interface real usa: cards de pedido com status (`Pendente` / `Coletado` / `Em rota` / `Entregue`), badge "Ao vivo", mapa com pins de entregadores em tempo real, e painel de carteira digital com saldo e extrato. Isso substitui qualquer suposição genérica de "app consumer" nas peças que tocam em produto:
+
+- **Carrossel, slide 7 (solução):** o ícone de "Rastreio" ganha uma pequena marcação "tempo real" para ecoar a linguagem real do produto (mapa ao vivo), sem virar print de tela — o slide continua sendo ilustração de linha, não mockup de UI.
+- **Peça 3, cena 4 (conferindo os ganhos) — atualização da diretriz de mockup:** o mockup deve usar o vocabulário real da interface — card de "saldo do dia" com badge **"Ao vivo"**, lista tipo extrato abaixo, sem valor numérico real ou inventado (manter placeholder). Isso é mais fiel ao produto do que um mockup genérico de carteira digital.
+- **Nuance de white-label — importante para os dois Reels:** o app do entregador e o painel do cliente da Entregas Expressas são **white-label** — quem aparece de marca no app é a empresa de entregas que contratou a plataforma, não "Entregas Expressas". Ou seja, o mockup de app na cena 4 da Peça 3 **não deve estampar o logotipo "Entregas Expressas" como se fosse a marca do app do entregador** (isso não corresponde à realidade do produto). Proposta: usar uma UI neutra, sem marca de terceiro nem marca "Entregas Expressas" em destaque — só uma etiqueta discreta e genérica tipo "app do entregador" na barra superior do mockup, mais fiel ao que o entregador realmente vê no dia a dia. Se o cliente quiser reforçar reconhecimento de marca mesmo assim (é conteúdo do canal da Entregas Expressas, afinal), isso é uma decisão de negócio a validar com ele, não uma escolha unilateral de design.
+
+## 6. Pendências para o cliente
 
 1. Confirmar se existe manual de marca, logotipo em vetor e paleta oficial da Entregas Expressas — a proposta acima assume um território visual coerente com o segmento, mas deve ser substituída pela identidade real assim que disponível.
 2. Validar se o laranja `#FF6A3D` e o azul-marinho `#1B2A55` não colidem com marca já registrada/usada pelo cliente em outros canais (app, site).
